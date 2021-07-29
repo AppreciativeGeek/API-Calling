@@ -8,9 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var searchResults = [Result]()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List (searchResults) { result in
+                Text(result.title)
+            }
+        }
     }
 }
 
@@ -18,4 +23,11 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
+}
+
+struct Result: Identifiable {
+    var id = UUID()
+    var title : String
+    var link : String
+    var description : String
 }
