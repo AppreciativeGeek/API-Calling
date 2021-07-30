@@ -11,6 +11,7 @@
 		1A62795526B327A800A53A3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A62795426B327A800A53A3B /* ContentView.swift */; };
 		1A62795726B327AD00A53A3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A62795626B327AD00A53A3B /* Assets.xcassets */; };
 		1A62795A26B327AD00A53A3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A62795926B327AD00A53A3B /* Preview Assets.xcassets */; };
+		1AC62CBC26B3A4B100736AD3 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC62CBB26B3A4B100736AD3 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		1A62795626B327AD00A53A3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A62795926B327AD00A53A3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1A62795B26B327AD00A53A3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AC62CBB26B3A4B100736AD3 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				1A62795426B327A800A53A3B /* ContentView.swift */,
 				1A62795626B327AD00A53A3B /* Assets.xcassets */,
 				1A62795B26B327AD00A53A3B /* Info.plist */,
+				1AC62CBB26B3A4B100736AD3 /* SwiftyJSON.swift */,
 				1A62795826B327AD00A53A3B /* Preview Content */,
 			);
 			path = "API Calling";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AC62CBC26B3A4B100736AD3 /* SwiftyJSON.swift in Sources */,
 				1A62795526B327A800A53A3B /* ContentView.swift in Sources */,
 				1A62795326B327A800A53A3B /* API_CallingApp.swift in Sources */,
 			);
